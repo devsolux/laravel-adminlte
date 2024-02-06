@@ -1,0 +1,39 @@
+{
+    "name": "devsolux/laravel-adminlte",
+    "type": "library",
+    "description": "AdminLTE templates for Laravel Generator",
+    "keywords": [],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Baris Aydin",
+            "email": "devsolux@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/devsolux/laravel-ui-adminlte"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0",
+        "illuminate/view": "^10.0",
+        "devsolux/laravel-ui-adminlte": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "DevSolux\\AdminLTETemplates\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\DevSolux\\AdminLTETemplates\\AdminLTETemplatesServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

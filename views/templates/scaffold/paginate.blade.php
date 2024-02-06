@@ -1,0 +1,1 @@
+@@include('laravel-adminlte::common.paginate', ['records' => ${!! $config->modelNames->camelPlural !!}])
